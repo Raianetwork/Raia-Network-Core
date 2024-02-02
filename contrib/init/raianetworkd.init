@@ -1,0 +1,67 @@
+#!/bin/bash
+#
+#  raianetworkd The raianetwork core server.
+#
+#
+# chkconfig: 345 80 20
+# description: raianetworkd
+# processname: raianetworkd
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/raianetworkd, see below
+if [ -f /etc/sysconfig/raianetworkd ]; then
+        . /etc/sysconfig/raianetworkd
+fi
+
+RETVAL=0
+
+prog=raianetworkd
+# you can override the lockfile via RAIANETWORKD_LOCKFILE in /etc/sysconfig/raianetworkd
+lockfile=${RAIANETWORKD_LOCKFILE-/var/lock/subsys/raianetworkd}
+
+# raianetworkd defaults to /usr/bin/raianetworkd, override with RAIANETWORKD_BIN
+raianetworkd=${RAIANETWORKD_BIN-/usr/bin/raianetworkd}
+
+# raianetworkd opts default to -disablewallet, override with RAIANETWORKD_OPTS
+raianetworkd_opts=${RAIANETWORKD_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $raianetworkd $raianetworkd_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac

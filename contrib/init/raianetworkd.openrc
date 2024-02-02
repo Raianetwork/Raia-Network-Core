@@ -1,0 +1,92 @@
+#!/sbin/runscript
+
+# backward compatibility for existing gentoo layout 
+#
+if [ -d "/var/lib/raianetwork/.raianetwork" ]; then
+	RAIANETWORKD_DEFAULT_DATADIR="/var/lib/raianetwork/.raianetwork"
+else
+	RAIANETWORKD_DEFAULT_DATADIR="/var/lib/raianetworkd"
+fi
+
+RAIANETWORKD_CONFIGFILE=${RAIANETWORKD_CONFIGFILE:-/etc/raianetwork/raianetwork.conf}
+RAIANETWORKD_PIDDIR=${RAIANETWORKD_PIDDIR:-/var/run/raianetworkd}
+RAIANETWORKD_PIDFILE=${RAIANETWORKD_PIDFILE:-${RAIANETWORKD_PIDDIR}/raianetworkd.pid}
+RAIANETWORKD_DATADIR=${RAIANETWORKD_DATADIR:-${RAIANETWORKD_DEFAULT_DATADIR}}
+RAIANETWORKD_USER=${RAIANETWORKD_USER:-${RAIANETWORK_USER:-raianetwork}}
+RAIANETWORKD_GROUP=${RAIANETWORKD_GROUP:-raianetwork}
+RAIANETWORKD_BIN=${RAIANETWORKD_BIN:-/usr/bin/raianetworkd}
+RAIANETWORKD_NICE=${RAIANETWORKD_NICE:-${NICELEVEL:-0}}
+RAIANETWORKD_OPTS="${RAIANETWORKD_OPTS:-${RAIANETWORK_OPTS}}"
+
+name="RAIA Network Daemon"
+description="Raianetwork cryptocurrency P2P network daemon"
+
+command="/usr/bin/raianetworkd"
+command_args="-pid=\"${RAIANETWORKD_PIDFILE}\" \
+		-conf=\"${RAIANETWORKD_CONFIGFILE}\" \
+		-datadir=\"${RAIANETWORKD_DATADIR}\" \
+		-daemon \
+		${RAIANETWORKD_OPTS}"
+
+required_files="${RAIANETWORKD_CONFIGFILE}"
+start_stop_daemon_args="-u ${RAIANETWORKD_USER} \
+			-N ${RAIANETWORKD_NICE} -w 2000"
+pidfile="${RAIANETWORKD_PIDFILE}"
+
+# The retry schedule to use when stopping the daemon. Could be either
+# a timeout in seconds or multiple signal/timeout pairs (like
+# "SIGKILL/180 SIGTERM/300")
+retry="${RAIANETWORKD_SIGTERM_TIMEOUT}"
+
+depend() {
+	need localmount net
+}
+
+# verify
+# 1) that the datadir exists and is writable (or create it)
+# 2) that a directory for the pid exists and is writable
+# 3) ownership and permissions on the config file
+start_pre() {
+	checkpath \
+	-d \
+	--mode 0750 \
+	--owner "${RAIANETWORKD_USER}:${RAIANETWORKD_GROUP}" \
+	"${RAIANETWORKD_DATADIR}"
+
+	checkpath \
+	-d \
+	--mode 0755 \
+	--owner "${RAIANETWORKD_USER}:${RAIANETWORKD_GROUP}" \
+	"${RAIANETWORKD_PIDDIR}"
+
+	checkpath -f \
+	-o ${RAIANETWORKD_USER}:${RAIANETWORKD_GROUP} \
+	-m 0660 \
+	${RAIANETWORKD_CONFIGFILE}
+
+	checkconfig || return 1
+}
+
+checkconfig()
+{
+	if ! grep -qs '^rpcpassword=' "${RAIANETWORKD_CONFIGFILE}" ; then
+		eerror ""
+		eerror "ERROR: You must set a secure rpcpassword to run raianetworkd."
+		eerror "The setting must appear in ${RAIANETWORKD_CONFIGFILE}"
+		eerror ""
+		eerror "This password is security critical to securing wallets "
+		eerror "and must not be the same as the rpcuser setting."
+		eerror "You can generate a suitable random password using the following "
+		eerror "command from the shell:"
+		eerror ""
+		eerror "bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'"
+		eerror ""
+		eerror "It is recommended that you also set alertnotify so you are "
+		eerror "notified of problems:"
+		eerror ""
+		eerror "ie: alertnotify=echo %%s | mail -s \"Raianetwork Alert\"" \
+			"admin@foo.com"
+		eerror ""
+		return 1
+	fi
+}

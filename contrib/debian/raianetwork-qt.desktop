@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=RAIA Network
+Comment=Connect to the Raianetwork P2P Network
+Comment[de]=Verbinde mit dem Raianetwork peer-to-peer Netzwerk
+Comment[fr]=Raianetwork, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Raianetwork, eşten eşe kriptografik sanal para birimi
+Exec=raianetwork-qt %u
+Terminal=false
+Type=Application
+Icon=raianetwork128
+MimeType=x-scheme-handler/raianetwork;
+Categories=Office;Finance;

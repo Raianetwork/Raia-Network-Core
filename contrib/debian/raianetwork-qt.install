@@ -1,0 +1,6 @@
+usr/local/bin/raianetwork-qt usr/bin
+share/pixmaps/raianetwork32.xpm usr/share/pixmaps
+share/pixmaps/raianetwork16.xpm usr/share/pixmaps
+share/pixmaps/raianetwork128.png usr/share/pixmaps
+debian/raianetwork-qt.desktop usr/share/applications
+debian/raianetwork-qt.protocol usr/share/kde4/services/

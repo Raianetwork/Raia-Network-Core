@@ -1,0 +1,8 @@
+/usr/bin/raianetwork-cli		--	gen_context(system_u:object_r:raianetwork_exec_t,s0)
+/usr/sbin/raianetworkd		--	gen_context(system_u:object_r:raianetwork_exec_t,s0)
+/usr/lib(64)?/raianetwork/raianetworkd		--	gen_context(system_u:object_r:raianetwork_exec_t,s0)
+
+/etc/raianetwork(/.*)?		gen_context(system_u:object_r:raianetwork_conf_t,s0)
+/var/lib/raianetwork(/.*)?		gen_context(system_u:object_r:raianetwork_var_lib_t,s0)
+
+(/var)?/run/raianetworkd(/.*)?   gen_context(system_u:object_r:raianetwork_var_run_t,s0)

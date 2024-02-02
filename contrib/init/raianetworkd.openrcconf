@@ -1,0 +1,33 @@
+# /etc/conf.d/raianetworkd: config file for /etc/init.d/raianetworkd
+
+# Config file location
+#RAIANETWORKD_CONFIGFILE="/etc/raianetwork/raianetwork.conf"
+
+# What directory to write pidfile to?  (created and owned by $RAIANETWORKD_USER)
+#RAIANETWORKD_PIDDIR="/var/run/raianetworkd"
+
+# What filename to give the pidfile
+#RAIANETWORKD_PIDFILE="${RAIANETWORKD_PIDDIR}/raianetworkd.pid"
+
+# Where to write raianetworkd data (be mindful that the blockchain is large)
+#RAIANETWORKD_DATADIR="/var/lib/raianetworkd"
+
+# User and group to own raianetworkd process
+#RAIANETWORKD_USER="raianetwork"
+#RAIANETWORKD_GROUP="raianetwork"
+
+# Path to raianetworkd executable
+#RAIANETWORKD_BIN="/usr/bin/raianetworkd"
+
+# Nice value to run raianetworkd under
+#RAIANETWORKD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#RAIANETWORKD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for raianetworkd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+RAIANETWORKD_SIGTERM_TIMEOUT=60

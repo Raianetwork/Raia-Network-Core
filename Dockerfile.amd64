@@ -1,0 +1,27 @@
+FROM amd64/ubuntu:latest
+
+MAINTAINER cade <cade.call@mediciventures.com>
+
+EXPOSE $RPCPORT
+
+EXPOSE $PORT
+
+RUN apt-get update && apt-get install -y bash net-tools && apt-get clean
+
+RUN useradd -ms /bin/bash raianetwork
+
+RUN mkdir /etc/raianetwork
+
+RUN mkdir /var/lib/raianetwork
+
+RUN chown raianetwork:raianetwork /etc/raianetwork /var/lib/raianetwork
+
+WORKDIR /home/raianetwork
+
+COPY --chown=raianetwork:raianetwork linux64/* /home/raianetwork/
+
+COPY --chown=raianetwork:raianetwork run.sh /home/raianetwork/
+
+USER raianetwork
+
+CMD ["/home/raianetwork/run.sh"]
