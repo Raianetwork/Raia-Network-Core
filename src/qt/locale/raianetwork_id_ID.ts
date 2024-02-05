@@ -432,7 +432,7 @@
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation><numerusform>%n koneksi aktif ke jaringan Raianetwork</numerusform></translation>
     </message>
     <message>
@@ -982,7 +982,7 @@
         <translation>Petakan port dengan &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+        <source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
         <translation>Hubungkan ke jaringan Raianetwork melalui SOCKS5 proxy.</translation>
     </message>
     <message>
@@ -1089,7 +1089,7 @@
         <translation>Formulir</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
         <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Raianetwork ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>

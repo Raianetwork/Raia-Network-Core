@@ -272,7 +272,7 @@
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation><numerusform>%n aktivna veza na Raianetwork mrežu</numerusform><numerusform>%n aktivnih veza na Raianetwork mrežu</numerusform><numerusform>%n aktivnih veza na Raianetwork mrežu</numerusform></translation>
     </message>
     <message numerus="yes">
@@ -645,7 +645,7 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
         <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Raianetwork mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>

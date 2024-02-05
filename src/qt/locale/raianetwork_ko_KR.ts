@@ -444,7 +444,7 @@
 			<translation>&amp; 명령 행 옵션</translation>
 		</message>
 		<message>
-			<source>%n active connection(s) to Raianetwork network</source>
+			<source>%n active connection(s) to RAIA Network</source>
 			<translation>%n 설정 부 네트워크 로 의 활동 연결</translation>
 		</message>
 		<message>
@@ -608,7 +608,7 @@
 			<translation>&amp; 지갑</translation>
 		</message>
 		<message>
-			<source>Raianetwork Market Price</source>
+			<source>RAIA Network Market Price</source>
 			<translation>Raianetwork 시장가 격</translation>
 		</message>
 		<message>
@@ -1038,7 +1038,7 @@
 			<translation>유형</translation>
 		</message>
 		<message>
-			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Raianetwork network, as detailed below.</source>
+			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
 			<translation>최근 의 거래 가 아직 보이 지 않 을 수도 있 으 므 로 귀하 의 지갑 잔액 이 정확 하지 않 을 수도 있 습 니 다.지갑 이 벌집 네트워크 와 일치 하면 이 정 보 는 다음 과 같 습 니 다.</translation>
 		</message>
 		<message>
@@ -1086,7 +1086,7 @@
 			<translation>알수없음. 헤더 동기화중 (%1)...</translation>
 		</message>
 		<message>
-			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the raianetwork network, as detailed below.</source>
+			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
 			<translation>최근 의 거래 가 아직 보이 지 않 을 수도 있 으 므 로 귀하 의 지갑 잔액 이 정확 하지 않 을 수도 있 습 니 다.지갑 이 벌집 네트워크 와 일치 하면 이 정 보 는 다음 과 같 습 니 다.</translation>
 		</message>
 	</context>
@@ -1220,7 +1220,7 @@
 			<translation>사용중인 &amp;UPnP 포트 매핑</translation>
 		</message>
 		<message>
-			<source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+			<source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
 			<translation>설정 부 네트워크 에 SOCKS 5 프 록 시 를 통 해 연결 합 니 다.</translation>
 		</message>
 		<message>
@@ -1260,8 +1260,8 @@
 			<translation>Tor</translation>
 		</message>
 		<message>
-			<source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
-			<translation>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+			<source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
+			<translation>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</translation>
 		</message>
 		<message>
 			<source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
@@ -1383,7 +1383,7 @@
 			<translation>유형</translation>
 		</message>
 		<message>
-			<source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+			<source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
 			<translation>표시 되 는 정보 가 만 료 되 었 을 수도 있 습 니 다.연결 을 만 든 후 지갑 은 자동 으로 설정 부 네트워크 와 일치 하지만 이 과정 은 완료 되 지 않 았 습 니 다.</translation>
 		</message>
 		<message>
@@ -2096,7 +2096,7 @@
 			<translation>현재의 수취용 주소를 재사용하기(&amp;E) (권장하지 않습니다)</translation>
 		</message>
 		<message>
-			<source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+			<source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
 			<translation>결제 요청 에 추 가 된 추가 정보 입 니 다. 이 메 시 지 는 요청 시 표 시 됩 니 다.주의: 메 시 지 는 구성 부 네트워크 와 결제 로 발송 되 지 않 습 니 다.</translation>
 		</message>
 		<message>
@@ -2600,7 +2600,7 @@
 			<translation>사용된 주소 목록에 새 주소를 추가하기 위해 라벨 이름을 입력해 주세요. </translation>
 		</message>
 		<message>
-			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
 			<translation>raianetwork: URI 에 추 가 된 메 시 지 는 참고 할 수 있 도록 사무 와 함께 저 장 됩 니 다.메모: 이 메 시 지 는 구성 요소 네트워크 를 통 해 발송 되 지 않 습 니 다.</translation>
 		</message>
 		<message>
@@ -5760,7 +5760,7 @@
 			<translation>자산 결제 입 니 다.</translation>
 		</message>
 		<message>
-			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
 			<translation>raianetwork: URI 에 추 가 된 메 시 지 는 참고 할 수 있 도록 사무 와 함께 저 장 됩 니 다.메모: 이 메 시 지 는 구성 요소 네트워크 를 통 해 발송 되 지 않 습 니 다.</translation>
 		</message>
 		<message>

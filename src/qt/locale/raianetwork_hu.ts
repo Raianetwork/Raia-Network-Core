@@ -351,7 +351,7 @@
         <translation type="vanished">&amp;UPnP port-feltérképezés</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+        <source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
         <translation type="vanished">Csatlakozás a Raianetwork hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
@@ -446,7 +446,7 @@
         <translation type="vanished">Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
         <translation type="vanished">A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Raianetwork hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
@@ -938,7 +938,7 @@
         <translation type="vanished">Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation type="vanished">
             <numerusform>%n aktív kapcsolat a Raianetwork hálózathoz</numerusform>
         </translation>

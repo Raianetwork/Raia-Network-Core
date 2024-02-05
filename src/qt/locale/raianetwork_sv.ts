@@ -437,7 +437,7 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation><numerusform>%n aktiva anslutningar till Raianetwork-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Raianetwork-nätverket.</numerusform></translation>
     </message>
     <message>
@@ -889,7 +889,7 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the raianetwork network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
         <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan ditt din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med raianetwork nätverket, enligt detaljer nedan.</translation>
     </message>
     <message>
@@ -1055,7 +1055,7 @@ Var vänlig och försök igen.</translation>
         <translation>Tilldela port med hjälp av &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+        <source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
         <translation>Anslut till Raianetwork-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
@@ -1095,7 +1095,7 @@ Var vänlig och försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Anslut till Raianetwork-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
@@ -1194,7 +1194,7 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
         <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Raianetwork-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
@@ -1791,7 +1791,7 @@ Var vänlig och försök igen.</translation>
         <translation>Åt&amp;eranvänd en existerande mottagningsadress (rekommenderas inte)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
         <translation>Ett frivilligt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. NB: Meddelandet kommer inte att sändas med betalningen över Raianetwork nätverket.</translation>
     </message>
     <message>
@@ -2271,7 +2271,7 @@ Var vänlig och försök igen.</translation>
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
         <translation>Ett meddelande som bifogades raianetwork-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Raianetwork nätverket.</translation>
     </message>
     <message>

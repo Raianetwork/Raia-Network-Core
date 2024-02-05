@@ -436,7 +436,7 @@
         <translation>&amp;Komut satırı seçenekleri</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation><numerusform>Raianetwork şebekesine %n faal bağlantı</numerusform></translation>
     </message>
     <message>
@@ -888,7 +888,7 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the raianetwork network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
         <translation>Son işlemler henüz görünmeyebilir ve bu nedenle cüzdanınızın bakiyesi yanlış olabilir. Bu bilgiler, aşağıda detaylandırıldığı gibi, cüzdanınız raianetwork ağı ile senkronizasyonunu tamamladığında doğru olacaktır. </translation>
     </message>
     <message>
@@ -1058,7 +1058,7 @@
         <translation>Portları &amp;UPnP kullanarak haritala</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+        <source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
         <translation>Raianetwork ağına bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
     </message>
     <message>
@@ -1098,7 +1098,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Raianetwork ağına gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu aracılığıyla bağlan.</translation>
     </message>
     <message>
@@ -1197,7 +1197,7 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen bilgiler güncel olmayabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak Raianetwork ağı ile senkronize olur ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
@@ -1806,7 +1806,7 @@
         <translation>&amp;Hâlihazırda bulunan bir alım adresini kullan (önerilmez)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
         <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir ileti. Not: Bu ileti ödeme ile birlikte Raianetwork ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
@@ -2286,7 +2286,7 @@
         <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
-        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
         <translation>Referans için raianetwork: URI'siyle iliştirilmiş işlemle birlikte depolanacak bir ileti. Not: Bu mesaj Raianetwork ağı üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>

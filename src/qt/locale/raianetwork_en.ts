@@ -550,10 +550,10 @@
     </message>
     <message numerus="yes">
         <location line="+356"/>
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation>
-            <numerusform>%n active connection to Raianetwork network</numerusform>
-            <numerusform>%n active connections to Raianetwork network</numerusform>
+            <numerusform>%n active connection to RAIA Network</numerusform>
+            <numerusform>%n active connections to RAIA Network</numerusform>
         </translation>
     </message>
     <message>
@@ -1196,7 +1196,7 @@
     </message>
     <message>
         <location line="+119"/>
-        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the raianetwork network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1429,7 +1429,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+        <source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1477,7 +1477,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1622,8 +1622,8 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -2460,7 +2460,7 @@
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3086,7 +3086,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

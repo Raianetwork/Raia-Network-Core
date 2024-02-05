@@ -444,7 +444,7 @@
 			<translation>&amp;命令行选项</translation>
 		</message>
 		<message>
-			<source>%n active connection(s) to Raianetwork network</source>
+			<source>%n active connection(s) to RAIA Network</source>
 			<translation>%n到配置单元网络的活动连接</translation>
 		</message>
 		<message>
@@ -608,7 +608,7 @@
 			<translation>&amp;钱包</translation>
 		</message>
 		<message>
-			<source>Raianetwork Market Price</source>
+			<source>RAIA Network Market Price</source>
 			<translation>Raianetwork市场价格</translation>
 		</message>
 		<message>
@@ -1038,7 +1038,7 @@
 			<translation>表单</translation>
 		</message>
 		<message>
-			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Raianetwork network, as detailed below.</source>
+			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
 			<translation>近期交易可能尚未显示,因此当前余额可能不准确.以上信息将在与Raianetwork网络完全同步后更正.详情如下</translation>
 		</message>
 		<message>
@@ -1086,7 +1086,7 @@
 			<translation>未知.正在同步区块头(%1)...</translation>
 		</message>
 		<message>
-			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the raianetwork network, as detailed below.</source>
+			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
 			<translation>最近的交易可能还不可见,因此您的钱包余额可能不正确.一旦您的钱包完成与蜂窝网络的同步,此信息将是正确的,详情如下.</translation>
 		</message>
 	</context>
@@ -1220,7 +1220,7 @@
 			<translation>使用 &amp;UPnP 映射端口</translation>
 		</message>
 		<message>
-			<source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+			<source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
 			<translation>通过 SOCKS5 代理连接Raianetwork网络.</translation>
 		</message>
 		<message>
@@ -1260,7 +1260,7 @@
 			<translation>Tor</translation>
 		</message>
 		<message>
-			<source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
+			<source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
 			<translation>在 Tor 匿名网络下通过不同的 SOCKS5 代理连接Raianetwork网络</translation>
 		</message>
 		<message>
@@ -1383,7 +1383,7 @@
 			<translation>表单</translation>
 		</message>
 		<message>
-			<source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+			<source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
 			<translation>现在显示的消息可能是过期的.在连接上Raianetwork网络节点后,您的钱包将自动与网络同步,但是这个过程还没有完成.</translation>
 		</message>
 		<message>
@@ -2096,7 +2096,7 @@
 			<translation>重用现有的接收地址(不推荐)</translation>
 		</message>
 		<message>
-			<source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+			<source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
 			<translation>可在付款请求上备注一条信息,在打开付款请求时可以看到.注意:该消息不是通过Raianetwork网络传送.</translation>
 		</message>
 		<message>
@@ -2600,7 +2600,7 @@
 			<translation>请为此地址输入一个标签以将它加入用过的地址列表</translation>
 		</message>
 		<message>
-			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
 			<translation>raianetwork:URI 附带的备注信息,将会和交易一起存储,备查. 注意:该消息不会通过Raianetwork网络传输.</translation>
 		</message>
 		<message>
@@ -5760,7 +5760,7 @@
 			<translation>这是资产支付</translation>
 		</message>
 		<message>
-			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
 			<translation>附加到raianetwork:URI的消息,它将与事务一起存储以供您参考.注意:此消息不会通过配置单元网络发送.</translation>
 		</message>
 		<message>

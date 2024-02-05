@@ -85,10 +85,10 @@ In Qt code use tr's third argument for optional plurality. For example:
 This adds `<numerusform>`s to the respective `.ts` file, which can be translated separately depending on the language. In English, this is simply:
 
     <message numerus="yes">
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation>
-            <numerusform>%n active connection to Raianetwork network</numerusform>
-            <numerusform>%n active connections to Raianetwork network</numerusform>
+            <numerusform>%n active connection to RAIA Network</numerusform>
+            <numerusform>%n active connections to RAIA Network</numerusform>
         </translation>
     </message>
 

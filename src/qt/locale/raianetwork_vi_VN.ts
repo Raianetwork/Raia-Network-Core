@@ -538,7 +538,7 @@
         <translation>Ví</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+        <source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
         <translation>Kết nối đến máy chủ Raianetwork thông qua SOCKS5 proxy.</translation>
     </message>
     <message>

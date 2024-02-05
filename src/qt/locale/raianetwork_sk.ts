@@ -436,7 +436,7 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation><numerusform>%n aktívne pripojenie do siete Raianetwork</numerusform><numerusform>%n aktívne pripojenia do siete Raianetwork</numerusform><numerusform>%n aktívnych pripojení do siete Raianetwork</numerusform></translation>
     </message>
     <message>
@@ -888,7 +888,7 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the raianetwork network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
         <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou raianetwork, ako je rozpísané nižšie.</translation>
     </message>
     <message>
@@ -1058,7 +1058,7 @@
         <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+        <source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
         <translation>Pripojiť do siete Raianetwork cez proxy server SOCKS5.</translation>
     </message>
     <message>
@@ -1098,7 +1098,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Pripojiť k Raianetwork ovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
@@ -1197,7 +1197,7 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
         <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Raianetwork po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
@@ -1795,7 +1795,7 @@
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
         <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Raianetwork.</translation>
     </message>
     <message>
@@ -2279,7 +2279,7 @@
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
         <translation>Správa ktorá bola pripojená k raianetwork: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Raianetwork.</translation>
     </message>
     <message>

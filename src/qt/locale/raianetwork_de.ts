@@ -444,7 +444,7 @@
 			<translation>&amp;Command-line Optionen</translation>
 		</message>
 		<message>
-			<source>%n active connection(s) to Raianetwork network</source>
+			<source>%n active connection(s) to RAIA Network</source>
 			<translation>%n aktive Verbindung(en) zum Raianetwork-Netzwerk</translation>
 		</message>
 		<message>
@@ -608,7 +608,7 @@
 			<translation>&amp;Brieftasche</translation>
 		</message>
 		<message>
-			<source>Raianetwork Market Price</source>
+			<source>RAIA Network Market Price</source>
 			<translation>Raianetwork Marktpreis</translation>
 		</message>
 		<message>
@@ -1038,7 +1038,7 @@
 			<translation>Formular</translation>
 		</message>
 		<message>
-			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Raianetwork network, as detailed below.</source>
+			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
 			<translation>Neuere Transaktionen sind möglicherweise noch nicht sichtbar, und daher könnte der Saldo Ihrer Brieftasche falsch sein.Diese Informationen werden korrekt sein, sobald Ihre Brieftasche mit dem Raianetwork-Netzwerk synchronisiert ist, wie unten beschrieben.</translation>
 		</message>
 		<message>
@@ -1086,7 +1086,7 @@
 			<translation>Unbekannt. Synchronisiere Headers (%1)...</translation>
 		</message>
 		<message>
-			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the raianetwork network, as detailed below.</source>
+			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
 			<translation>Neuere Transaktionen sind möglicherweise noch nicht sichtbar, und daher könnte der Saldo Ihrer Brieftasche falsch sein.Diese Informationen werden korrekt sein, sobald Ihre Brieftasche die Synchronisation mit dem Raianetwork-Netzwerk beendet hat, wie unten beschrieben.</translation>
 		</message>
 	</context>
@@ -1220,7 +1220,7 @@
 			<translation>Portweiterleitung via &amp;UPnP</translation>
 		</message>
 		<message>
-			<source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+			<source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
 			<translation>Verbinden Sie sich mit dem Raianetwork-Netzwerk über einen SOCKS5-Proxy.</translation>
 		</message>
 		<message>
@@ -1260,7 +1260,7 @@
 			<translation>Tor</translation>
 		</message>
 		<message>
-			<source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
+			<source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
 			<translation>Verbinden Sie sich mit dem Raianetwork-Netzwerk über einen separaten SOCKS5-Proxy für Tor versteckte Dienste.</translation>
 		</message>
 		<message>
@@ -1383,7 +1383,7 @@
 			<translation>Formular</translation>
 		</message>
 		<message>
-			<source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+			<source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
 			<translation>Die angezeigten Informationen können veraltet sein.Ihre Brieftasche synchronisiert sich automatisch mit dem Raianetwork-Netzwerk, nachdem eine Verbindung hergestellt wurde, aber dieser Prozess ist noch nicht abgeschlossen.</translation>
 		</message>
 		<message>
@@ -2096,7 +2096,7 @@
 			<translation>Vorhandene Empfangsadresse &amp;wiederverwenden (nicht empfohlen)</translation>
 		</message>
 		<message>
-			<source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+			<source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
 			<translation>Eine optionale Nachricht, die dem Zahlungsantrag beizufügen ist, die beim Öffnen der Anfrage angezeigt wird.Hinweis: Die Nachricht wird nicht mit der Zahlung über das Raianetwork-Netzwerk gesendet.</translation>
 		</message>
 		<message>
@@ -2600,7 +2600,7 @@
 			<translation>Adressbezeichnung eingeben, die dann zusammen mit der Adresse der Liste bereits verwendeter Adressen hinzugefügt wird.</translation>
 		</message>
 		<message>
-			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
 			<translation>Eine Nachricht, die dem Raianetwork beigefügt wurde: URI, die mit der Transaktion für Ihre Referenz gespeichert wird.Hinweis: Diese Nachricht wird nicht über das Raianetwork-Netzwerk gesendet.</translation>
 		</message>
 		<message>
@@ -5760,7 +5760,7 @@
 			<translation>Das ist eine Vermögenszahlung</translation>
 		</message>
 		<message>
-			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
 			<translation>Eine Nachricht, die dem Raianetwork beigefügt wurde: URI, die mit der Transaktion für Ihre Referenz gespeichert wird.Hinweis: Diese Nachricht wird nicht über das Raianetwork-Netzwerk gesendet.</translation>
 		</message>
 		<message>

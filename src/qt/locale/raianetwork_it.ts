@@ -432,7 +432,7 @@
         <translation>Opzioni della riga di &amp;comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Raianetwork network</source>
+        <source>%n active connection(s) to RAIA Network</source>
         <translation><numerusform>%n connessione attiva alla rete Raianetwork</numerusform><numerusform>%n connessioni alla rete Raianetwork attive</numerusform></translation>
     </message>
     <message>
@@ -1047,7 +1047,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Mappa le porte tramite &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+        <source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
         <translation>Connessione alla rete Raianetwork attraverso un proxy SOCKS5.</translation>
     </message>
     <message>
@@ -1087,7 +1087,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Connette alla rete Raianetwork attraverso un proxy SOCKS5 separato per Tor.</translation>
     </message>
     <message>
@@ -1186,7 +1186,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
         <translation>Le informazioni visualizzate potrebbero non essere aggiornate. Il portamonete si sincronizza automaticamente con la rete Raianetwork una volta stabilita una connessione, ma questo processo non è ancora stato completato.</translation>
     </message>
     <message>
@@ -1779,7 +1779,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>R&amp;iusa un indirizzo di ricezione (non raccomandato)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
         <translation>Un messaggio opzionale da allegare e mostrare all'apertura della richiesta di pagamento. Nota: Il messaggio non sarà inviato con il pagamento sulla rete Raianetwork.</translation>
     </message>
     <message>
@@ -2247,7 +2247,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Inserisci un'etichetta per questo indirizzo per aggiungerlo alla lista degli indirizzi utilizzati</translation>
     </message>
     <message>
-        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+        <source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
         <translation>Messaggio incluso nel raianetwork URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Raianetwork.</translation>
     </message>
     <message>

@@ -444,7 +444,7 @@
 			<translation>&amp; Параметры командной строки</translation>
 		</message>
 		<message>
-			<source>%n active connection(s) to Raianetwork network</source>
+			<source>%n active connection(s) to RAIA Network</source>
 			<translation>%n подключено к сети настроек</translation>
 		</message>
 		<message>
@@ -608,7 +608,7 @@
 			<translation>&amp; кошелек</translation>
 		</message>
 		<message>
-			<source>Raianetwork Market Price</source>
+			<source>RAIA Network Market Price</source>
 			<translation>рыночная цена</translation>
 		</message>
 		<message>
@@ -1038,7 +1038,7 @@
 			<translation>Форма</translation>
 		</message>
 		<message>
-			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Raianetwork network, as detailed below.</source>
+			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
 			<translation>последние операции ещё не видны, поэтому остаток вашего бумажника может быть неправильным.как только ваш бумажник будет синхронизирован с сотовой сетью, эта информация будет правильна и подробно описана ниже.</translation>
 		</message>
 		<message>
@@ -1086,7 +1086,7 @@
 			<translation>Неизвестно. Синхронизация заголовков (%1)...</translation>
 		</message>
 		<message>
-			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the raianetwork network, as detailed below.</source>
+			<source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the RAIA Network, as detailed below.</source>
 			<translation>последние операции ещё не видны, поэтому остаток вашего бумажника может быть неправильным.как только ваш бумажник будет синхронизирован с сотовой сетью, эта информация будет правильна и подробно описана ниже.</translation>
 		</message>
 	</context>
@@ -1220,7 +1220,7 @@
 			<translation>Пробросить порт через &amp;UPnP</translation>
 		</message>
 		<message>
-			<source>Connect to the Raianetwork network through a SOCKS5 proxy.</source>
+			<source>Connect to the RAIA Network through a SOCKS5 proxy.</source>
 			<translation>подключиться к сети настроек через прокси SOCKS5.</translation>
 		</message>
 		<message>
@@ -1260,7 +1260,7 @@
 			<translation>Tor</translation>
 		</message>
 		<message>
-			<source>Connect to the Raianetwork network through a separate SOCKS5 proxy for Tor hidden services.</source>
+			<source>Connect to the RAIA Network through a separate SOCKS5 proxy for Tor hidden services.</source>
 			<translation>подключиться к сети модулей настройки через отдельный прокси SOCKS5 для предоставления скрытых услуг.</translation>
 		</message>
 		<message>
@@ -1383,7 +1383,7 @@
 			<translation>Форма</translation>
 		</message>
 		<message>
-			<source>The displayed information may be out of date. Your wallet automatically synchronizes with the Raianetwork network after a connection is established, but this process has not completed yet.</source>
+			<source>The displayed information may be out of date. Your wallet automatically synchronizes with the RAIA Network after a connection is established, but this process has not completed yet.</source>
 			<translation>Показать информацию, которая может быть просрочена.после подключения бумажник будет автоматически синхронизирован с сетью модулей настройки, но этот процесс еще не завершен.</translation>
 		</message>
 		<message>
@@ -2096,7 +2096,7 @@
 			<translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
 		</message>
 		<message>
-			<source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Raianetwork network.</source>
+			<source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the RAIA Network.</source>
 			<translation>дополнительное сообщение к запросу платежа, которое будет показано при открытии запроса.Примечание: сообщение не будет отправлено вместе с платежом через Сеть настроек модулей.</translation>
 		</message>
 		<message>
@@ -2600,7 +2600,7 @@
 			<translation>Введите метку для этого адреса, чтобы добавить его в список использованных</translation>
 		</message>
 		<message>
-			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
 			<translation>добавить к raianetwork: URI сообщение, которое будет храниться вместе с сервисом для Вашего сведения.Примечание: это сообщение не будет отправлено через Сеть настроек модулей.</translation>
 		</message>
 		<message>
@@ -6066,7 +6066,7 @@
 			<translation>Это актив</translation>
 		</message>
 		<message>
-			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Raianetwork network.</source>
+			<source>A message that was attached to the raianetwork: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the RAIA Network.</source>
 			<translation>добавить к raianetwork: URI сообщение, которое будет храниться вместе с сервисом для Вашего сведения.Примечание: это сообщение не будет отправлено через Сеть настроек модулей.</translation>
 		</message>
 		<message>
