@@ -892,7 +892,7 @@
         <translation>Son işlemler henüz görünmeyebilir ve bu nedenle cüzdanınızın bakiyesi yanlış olabilir. Bu bilgiler, aşağıda detaylandırıldığı gibi, cüzdanınız raianetwork ağı ile senkronizasyonunu tamamladığında doğru olacaktır. </translation>
     </message>
     <message>
-        <source>Attempting to spend raianetworkss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend RAIA Networkss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Henüz görüntülenmeyen işlemlerden etkilenen raianetworksleri harcama girişiminde bulunmak ağ tarafından kabul edilmeyecektir.</translation>
     </message>
     <message>

@@ -888,7 +888,7 @@
         <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
-        <source>Attempting to spend raianetworkss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend RAIA Networkss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Gastar moedas de transações desconhecidas podem não ser aceitas pela rede.</translation>
     </message>
     <message>

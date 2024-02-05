@@ -892,7 +892,7 @@
         <translation>Nedávné transakce ještě nemusí být vidět, takže stav tvého účtu nemusí být platný. Jakmile se však tvá peněženka dosynchronizuje s raianetworksovou sítí (viz informace níže), tak už bude stav správně.</translation>
     </message>
     <message>
-        <source>Attempting to spend raianetworkss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend RAIA Networkss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Utrácení raianetworků, které už utratily zatím nezobrazené transakce, nebude raianetworksovou sítí umožněno.</translation>
     </message>
     <message>

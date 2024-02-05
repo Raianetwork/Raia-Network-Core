@@ -1042,7 +1042,7 @@
 			<translation>最近の取引はまだ見えないかもしれません、したがって、あなたの財布のバランスは不正確であるかもしれません.以下の詳細として、あなたの財布がハイブネットワークと同期し終わったならば、この情報は正しいでしょう.</translation>
 		</message>
 		<message>
-			<source>Attempting to spend raianetworkss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+			<source>Attempting to spend RAIA Networkss that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
 			<translation>まだ表示されていないトランザクションが影響するビットコインを使用しようとすると、ネットワークから認証がなされないでしょう.</translation>
 		</message>
 		<message>
