@@ -52,9 +52,9 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 /* Raianetwork light orange */
 #define COLOR_LIGHT_ORANGE QColor("#f79433")
 /* Raianetwork dark blue */
-#define COLOR_DARK_BLUE QColor("#384192")
+#define COLOR_DARK_BLUE QColor("#323232")
 /* Raianetwork light blue */
-#define COLOR_LIGHT_BLUE QColor("#5874cf")
+#define COLOR_LIGHT_BLUE QColor("#4c4c4c")
 /* Raianetwork asset text */
 #define COLOR_ASSET_TEXT QColor(255, 255, 255)
 /* Raianetwork shadow color - light mode */
